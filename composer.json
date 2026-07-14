@@ -1,5 +1,5 @@
 {
-    "name": "worldpay/worldpay-apimatic-sdk",
+    "name": "worldpay-apimatic/worldpay-apimatic-sdk",
     "description": "Sample SDKs for Worldpay by APIMatic",
     "type": "library",
     "keywords": [],

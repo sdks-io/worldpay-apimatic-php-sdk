@@ -10,23 +10,23 @@ Retrieves authorized summaries and supports group by operations.
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```bash
-composer require "worldpay/worldpay-apimatic-sdk:0.0.1"
+composer require "worldpay-apimatic/worldpay-apimatic-sdk:0.0.2"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```json
 "require": {
-    "worldpay/worldpay-apimatic-sdk": "0.0.1"
+    "worldpay-apimatic/worldpay-apimatic-sdk": "0.0.2"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/worldpay/worldpay-apimatic-sdk#0.0.1
+https://packagist.org/packages/worldpay-apimatic/worldpay-apimatic-sdk#0.0.2
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -41,9 +41,9 @@ The following parameters are configurable for the API Client:
 | retryOnTimeout | `bool` | Whether to retry on request timeout.<br>*Default*: `true` |
 | httpStatusCodesToRetry | `array` | Http status codes to retry against.<br>*Default*: `408, 413, 429, 500, 502, 503, 504, 521, 522, 524` |
 | httpMethodsToRetry | `array` | Http methods to retry against.<br>*Default*: `'GET', 'PUT'` |
-| loggingConfiguration | [`LoggingConfigurationBuilder`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/logging-configuration-builder.md) | Represents the logging configurations for API calls |
-| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
-| customHeaderAuthenticationCredentials | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/auth/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
+| loggingConfiguration | [`LoggingConfigurationBuilder`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/logging-configuration-builder.md) | Represents the logging configurations for API calls |
+| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
+| customHeaderAuthenticationCredentials | [`CustomHeaderAuthenticationCredentials`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/auth/custom-header-signature.md) | The Credentials Setter for Custom Header Signature |
 
 The API client can be initialized as follows:
 
@@ -74,26 +74,26 @@ $client = ReportingAuthorizationSummaryApiClientBuilder::init()
 
 This API uses the following authentication schemes.
 
-* [`api_key (Custom Header Signature)`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/auth/custom-header-signature.md)
+* [`api_key (Custom Header Signature)`](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/auth/custom-header-signature.md)
 
 ## List of APIs
 
-* [Authorizations](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/controllers/authorizations.md)
+* [Authorizations](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/controllers/authorizations.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ProxyConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/proxy-configuration-builder.md)
-* [LoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/logging-configuration-builder.md)
-* [RequestLoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/request-logging-configuration-builder.md)
-* [ResponseLoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/response-logging-configuration-builder.md)
+* [ProxyConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/proxy-configuration-builder.md)
+* [LoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/logging-configuration-builder.md)
+* [RequestLoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/request-logging-configuration-builder.md)
+* [ResponseLoggingConfigurationBuilder](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/response-logging-configuration-builder.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/http-request.md)
+* [HttpRequest](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.1/doc/api-response.md)
+* [ApiResponse](https://www.github.com/sdks-io/worldpay-apimatic-php-sdk/tree/0.0.2/doc/api-response.md)
 

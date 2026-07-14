@@ -59,7 +59,7 @@ class ReportingAuthorizationSummaryApiClient implements ConfigurationInterface
             ->converter(new CompatibilityConverter())
             ->jsonHelper(ApiHelper::getJsonHelper())
             ->apiCallback($this->config['httpCallback'] ?? null)
-            ->userAgent('PHP-SDK/0.0.1 (OS: {os-info}, Engine: {engine}/{engine-version})')
+            ->userAgent('PHP-SDK/0.0.2 (OS: {os-info}, Engine: {engine}/{engine-version})')
             ->serverUrls(self::ENVIRONMENT_MAP[$this->getEnvironment()], Server::DEFAULT_)
             ->authManagers(['api_key' => $this->customHeaderAuthenticationManager])
             ->loggingConfiguration($loggingConfiguration)
